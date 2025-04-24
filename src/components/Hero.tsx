@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-
+import I1 from "./i2.jpg";
 const Hero = () => {
   return (
     <section className="relative w-full h-screen flex items-center justify-center px-4">
@@ -11,7 +11,7 @@ const Hero = () => {
           className="mb-8"
         >
           <img
-            src="src\WhatsApp Image 2025-04-21 at 22.03.16_3c298975.jpg"
+            src={I1}
             alt="Obupreethi G"
             className="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-2 border-accent"
           />

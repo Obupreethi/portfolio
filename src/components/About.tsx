@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-
+import I2 from "./i1.jpg";
 const About = () => {
   const [ref, inView] = useInView({
     threshold: 0.1,
@@ -67,7 +67,7 @@ const About = () => {
         >
           <div className="relative group">
             <img
-              src="src/WhatsApp Image 2025-04-21 at 22.01.38_24dd4f30.jpg"  // Make sure the image path is correct
+              src={I2}  // Make sure the image path is correct
               alt="Profile"
               className="rounded-lg w-full max-w-md mx-auto"
             />
