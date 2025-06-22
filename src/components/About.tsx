@@ -19,7 +19,7 @@ const About = () => {
       >
         <h2 className="section-heading gradient-text">About Me</h2>
         <p className="section-subheading">
-          I’m a 2nd‑year Computer Science &amp; Engineering student at Kongu Engineering College.
+          I’m a 3rd‑year Computer Science &amp; Engineering student at Kongu Engineering College.
           I specialize in full‑stack web development, AI, and UI/UX design, with hands-on experience in technologies like React, Node.js, MongoDB, and more.
         </p>
       </motion.div>
