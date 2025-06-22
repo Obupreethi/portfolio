@@ -19,7 +19,7 @@ const Contact = () => {
         >
           <h2 className="section-heading gradient-text">Get In Touch</h2>
           <p className="section-subheading">
-            I'm currently open to new opportunities. Whether you have a question or
+            I'm currently open to new opportunities & Seeking exciting freelance work opportunities.. Whether you have a question or
             just want to say hi, I'll get back to you!
           </p>
 
