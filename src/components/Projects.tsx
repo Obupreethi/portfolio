@@ -3,16 +3,18 @@ import { useInView } from 'react-intersection-observer';
 import { Github, ExternalLink } from 'lucide-react';
 import Img1 from "./p1.jpg"; 
 import p2 from "./p2.jpg";
+import p7 from "./p7.png";
+import p10 from "./p10.png";
 
 
 const projects = [
   {
-    title: "EduConnect Platform",
+    title: "EduConnect Platform with the help of AI",
     description: "EduConnect is an AI-powered platform designed to enhance personalized learning experiences, connecting students with tailored educational resources and opportunities for growth.",
     // If your image is in the public folder, you can use the path as below
     image: Img1,
 
-    tech: ["React", "Node.js", "MongoDB", "LLama model"]
+    tech: ["React", "Node.js","Express.js", "MongoDB", "LLama model(Trained)","Groq"]
    
   },
   {
@@ -22,6 +24,24 @@ const projects = [
     image: p2,
 
     tech: ["React", "Node.js", "MongoDB", "Express.js"]
+   
+  },
+  {
+    title: "Cognissance Site for department event in College",
+    description: "Cognissance platform is a student-built platform that simplifies event registration and management for departmental activities in college.",
+    // If your image is in the public folder, you can use the path as below
+    image: p7,
+
+    tech: ["React", "Node.js", "MongoDB", "Express.js"]
+   
+  },
+  {
+    title: "Math visualization with the help of AI",
+    description: "This project leverages AI to create interactive visualizations that simplify complex mathematical concepts for enhanced understanding and learning.",
+    // If your image is in the public folder, you can use the path as below
+    image: p10,
+
+    tech: ["React", "Node.js","Express.js", "MongoDB", "LLama model(Trained)","Groq"]
    
   },
 ];

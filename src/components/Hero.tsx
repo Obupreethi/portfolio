@@ -19,7 +19,7 @@ const Hero = () => {
           Obupreethi G
           </h1>
           <p className="text-xl md:text-2xl font-sourceSans text-accent mb-6">
-          Software Engineer
+          Software Engineer || 3 × hackathon overall winner || Globally Certified MongoDB Associate Developer & Oracle Apex Cloud Developer
           </p>
           <p className="text-lg md:text-xl text-text max-w-2xl mx-auto leading-relaxed">
             Crafting elegant solutions to complex problems through clean, efficient code.
